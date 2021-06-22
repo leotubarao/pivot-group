@@ -1,0 +1,16 @@
+.ltco_social {
+  display: flex;
+
+  a {
+    display: inline-flex;
+    @include transition($transition-base);
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+
+  > * + * {
+    margin-left: 0.75rem;
+  }
+}

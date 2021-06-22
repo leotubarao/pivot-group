@@ -1,0 +1,13 @@
+.header {
+  &.default {
+
+    .date_post {
+      color: ltco_color('gray-500');
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      border-bottom: 1px solid currentColor;
+      padding-bottom: 0.25rem;
+    }
+  }
+}

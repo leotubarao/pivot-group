@@ -1,0 +1,20 @@
+@function ltco_color($key: "red") {
+  @return map-get($ltco-colors, $key);
+}
+
+%triade-grid {
+  display: grid;
+  gap: 2rem;
+
+  @include media-breakpoint-up(sm) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include media-breakpoint-up(md) {
+    gap: 3rem;
+  }
+
+  @include media-breakpoint-up(xl) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

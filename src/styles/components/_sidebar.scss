@@ -1,0 +1,51 @@
+.ltco_sidebar {
+  &__item {
+    position: relative;
+
+    > * {
+      margin-bottom: 0;
+    }
+  }
+
+  .ltco_widget {
+    &__title {
+      color: ltco_color();
+    }
+
+    ul {
+      @extend .nav;
+      @extend .flex-column;
+
+      li {
+        @extend .nav-item;
+
+        a {
+          @extend .nav-link;
+          @extend .text-secondary;
+          @extend .px-0;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+
+.ltco_news_widget {
+  background-image: url($ltco_path_svgs+'/grafismo.svg');
+  background-color: ltco_color('news');
+  background-size: cover;
+  background-position: top right;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 2rem 3rem;
+
+  &__form {
+    &__input {
+      text-align: center;
+      background-clip: initial;
+    }
+  }
+}

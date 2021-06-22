@@ -1,0 +1,30 @@
+.ltco_navbar_header {
+  padding-top: 3rem;
+
+  > * + * {
+    margin-top: 2rem;
+  }
+
+  .navbar-toggler {
+    margin: 0 auto;
+  }
+
+  @include media-breakpoint-up(md) {
+    .ltco_form_search {
+      max-width: 200px;
+    }
+  }
+
+  .navbar-nav {
+    @include media-breakpoint-up(md) {
+      margin-left: -1.5rem;
+    }
+
+    li {
+      a {
+        font-weight: 700;
+        color: ltco_color('gray-700');
+      }
+    }
+  }
+}

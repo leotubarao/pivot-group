@@ -1,0 +1,42 @@
+.ltco_footer {
+  background-color: ltco_color('gray-100');
+
+  &__nav.nav {
+    margin-top: -0.5rem;
+    margin-bottom: -0.5rem;
+
+    .nav-link {
+      color: ltco_color('gray-700');
+      padding-left: 0;
+      padding-right: 0;
+      @include transition($transition-base);
+
+      &:hover {
+        padding-left: 0.5rem;
+      }
+    }
+  }
+
+  &__copyright {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+
+    @include media-breakpoint-up(sm) {
+      text-align: left;
+      flex-direction: row;
+    }
+
+    > * {
+      color: ltco_color('gray-700');
+    }
+
+    &__sign {
+      @include font-size(13);
+      font-weight: 700;
+    }
+  }
+}

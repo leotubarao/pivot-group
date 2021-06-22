@@ -1,0 +1,35 @@
+{
+  "name": "pivot-group",
+  "version": "1.0.0",
+  "homepage": "https://github.com/leotubarao/pivot-group",
+  "description": "WordPress Theme for Pivot Group by LTCO",
+  "main": "gulpfile.js",
+  "author": "Leônidas Santos <oi@ltco.com.br>",
+  "license": "MIT",
+  "scripts": {
+    "dev:server": "gulp server",
+    "dev": "gulp dev",
+    "build": "NODE_ENV=production gulp"
+  },
+  "dependencies": {
+    "bootstrap": "4.6.0",
+    "jquery-mask-plugin": "^1.14.16",
+    "modal-video": "^2.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-add-module-exports": "^1.0.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-minify": "^0.5.1",
+    "browser-sync": "^2.26.7",
+    "dotenv": "^8.2.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-svgmin": "^2.2.0",
+    "gulp-uglify-es": "^1.0.4"
+  }
+}
