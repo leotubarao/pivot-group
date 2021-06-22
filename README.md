@@ -1,1 +1,1 @@
-# pivot-group
+# Tema WordPress do Grupo Pivot
