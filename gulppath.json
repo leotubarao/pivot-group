@@ -1,0 +1,36 @@
+{
+  "browserSync": {
+    "proxy": "grupo-pivot.local",
+    "port": 3000,
+    "ui": {
+      "port": 7678
+    }
+  },
+  "tasks": {
+    "ltco_styles": {
+      "srcPath": "src/styles/**/*.scss",
+      "destPath": "public/styles"
+    },
+    "ltco_scripts": {
+      "srcPath": [
+        "src/scripts/**/*"
+      ],
+      "destPath": "public/scripts"
+    },
+    "ltco_images": {
+      "srcPath": "src/images/**/*",
+      "destPath": "public/images"
+    },
+    "ltco_svgs": {
+      "srcPath": "src/svgs/**/*.svg",
+      "destPath": "public/images/svgs"
+    }
+  },
+  "watch": {
+    "ltco_styles": "src/styles/**",
+    "ltco_scripts": "src/scripts/**",
+    "ltco_images": "src/images/**",
+    "ltco_svgs": "src/svgs/**",
+    "ltco_all": "**/*.php"
+  }
+}
