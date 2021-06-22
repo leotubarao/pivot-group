@@ -2,8 +2,6 @@
 
 require_once('wp-bootstrap-navwalker/class-wp-bootstrap-navwalker.php');
 
-require_once('wp-bootstrap-comment-walker/wp-bootstrap-comment-walker.php');
-
 require_once('ltco_get_head.php');
 
 require_once('ltco_social_nav.php');
