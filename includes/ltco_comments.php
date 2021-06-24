@@ -46,7 +46,7 @@ function ltco_comment_fields( $fields ) {
     sprintf(
       '<textarea id="comment" name="comment" class="form-control" placeholder="%s *" cols="45" rows="3" maxlength="65525" required="required"></textarea>',
       _x( 'Comment', 'noun' )
-    ),
+    )
   );
 
   $fields['cookies'] = sprintf(
